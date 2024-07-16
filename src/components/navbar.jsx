@@ -49,11 +49,11 @@ function Navbar() {
             </Link>
 
             <div className="class-hide-nav">
-              <div className="flex justify-center gap-6 mt-6 ">
+              <div className="flex justify-center gap-6 mt-3 ">
                 <Link to="/">
-                  <h2 className="text-[15px] text-white  font- font-semibold hover:text-customGreen-light">
+                  <h2 className="btn font-semibold">
                     {pathname === "/" ? (
-                      <div className=" text-customGreen-light ">Home</div>
+                      <div className=" text-customGreen-light">Home</div>
                     ) : (
                       "Home"
                     )}
@@ -62,7 +62,7 @@ function Navbar() {
 
                 <Link to="/about/">
                   <div className="flex justify-start gap-1">
-                    <h2 className="text-[15px] text-white  font-san font-semibold hover:text-customGreen-light">
+                    <h2 className=" btn font-semibold">
                       {pathname === "/about/" ? (
                         <div className="text-customGreen-light">About Us</div>
                       ) : (
@@ -74,7 +74,7 @@ function Navbar() {
 
                 <Link to="/service/">
                   <div className="flex justify-start gap-1">
-                    <h2 className="text-[15px] text-white font-san font-semibold hover:text-customGreen-light">
+                    <h2 className="font-semibold btn">
                       {pathname === "/service/" ? (
                         <div className="text-customGreen-light">Services</div>
                       ) : (
@@ -85,7 +85,7 @@ function Navbar() {
                 </Link>
 
                 <Link to="/contact/">
-                  <h2 className="text-[15px] text-white font-san font-semibold hover:text-customGreen-light">
+                  <h2 className="btn font-semibold ">
                     {pathname === "/contact/" ? (
                       <div className="text-customGreen-light"> Contact Us</div>
                     ) : (

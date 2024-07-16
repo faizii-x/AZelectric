@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       container: {
@@ -15,22 +12,17 @@ export default {
           "2xl": "6rem",
         },
       },
-      fontFamily:{
-        Nunito:["Nunito"],
-        Roboto:["Roboto"],
+      fontFamily: {
+        Nunito: ["Nunito"],
+        Roboto: ["Roboto"],
       },
       colors: {
         customGreen: {
           light: "#03BD5C",
-          para:"#0EA37F",
-         
+          para: "#0EA37F",
         },
       },
-      
-
-
     },
   },
   plugins: [],
-}
-
+};

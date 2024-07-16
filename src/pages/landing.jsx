@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Hero from "../components/hero";
+import SeconSection from "../components/seconSection";
 
 function Landing() {
   useEffect(() => {
@@ -12,7 +13,7 @@ function Landing() {
   return (
     <>
       <Hero />
-      <Hero />
+      <SeconSection/>
     </>
   );
 }

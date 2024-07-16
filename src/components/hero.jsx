@@ -23,7 +23,7 @@ function Hero() {
               </span>
             </h1>
 
-            <p className="text-white font-Nunito text-[18px] font-light">
+            <p className="text-white font-Nunito text-[18px] font-light mt-1">
               Join thousands of satisfied customers who trust us for reliable
               and professional electrical services. From installations to safety
               measures, we ensure your power needs are met with excellence.
