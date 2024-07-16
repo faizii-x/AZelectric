@@ -4,6 +4,28 @@
 
 body {
   background-color: black;
+  overflow-x: hidden;
+  scrollbar-color: #351111 #db1515; 
+  scrollbar-width: thin;
+}
+::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar */
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the track */
+}
+
+/* Style the scrollbar handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background: #03bd5c; /* Color of the handle */
+  border-radius: 10px; /* Round corners of the handle */
+}
+
+/* Style the scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #099f7a;
 }
 
 .button-gradient {
@@ -13,7 +35,7 @@ body {
 }
 
 .text-gradient {
-  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  background: linear-gradient(to bottom, white 80%, #03BD5C  20%);
   /* -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
 }

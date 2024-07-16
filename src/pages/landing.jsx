@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Hero from "../components/hero";
 import SeconSection from "../components/seconSection";
+import MainService from "../components/mainService";
 
 function Landing() {
   useEffect(() => {
@@ -14,6 +15,7 @@ function Landing() {
     <>
       <Hero />
       <SeconSection/>
+      <MainService/>
     </>
   );
 }
