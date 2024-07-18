@@ -12,7 +12,7 @@ function Hero() {
     <>
       <div className="pt-24">
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-3 max-w-full container mx-auto">
-          <div className="col-span-1 self-center">
+          <div className="lg:col-span-1 md:col-span-2 col-span-1 mx-auto self-center">
             <p className="text-customGreen-para font-Nunito text-[16px] font-bold">
               Welcome to A to Z Electric
             </p>

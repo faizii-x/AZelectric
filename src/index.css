@@ -35,7 +35,7 @@ body {
 }
 
 .text-gradient {
-  background: linear-gradient(to bottom, white 80%, #03BD5C  20%);
+  background: linear-gradient(to bottom, #03bd5c 0%, #099f7a  100%);
   /* -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
 }
@@ -226,7 +226,20 @@ button:active {
   background-color: #064b3b;
 }
 /* .......................................... */
-
+.textarea {
+  color: #a5a3a3; /* Sets text color to dark gray */
+  background-color: #f9f9f9; /* Sets background color to light gray */
+  border: 1px solid #cccccc; /* Sets border color */
+  padding: 10px; /* Adds padding inside the textarea */
+  font-family: Arial, sans-serif; /* Sets font family */
+  font-size: 15px; /* Sets font size */
+  border-radius: 6px;
+  resize: none;
+  background-color: transparent;
+  margin-top: 15px;
+  width: 95%;
+}
+/* ...................................... */
 /* @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);

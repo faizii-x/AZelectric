@@ -23,9 +23,9 @@ function SeconSection() {
             <p className="text-customGreen-para font-Nunito text-[16px] font-bold">
               About A to Z Electric
             </p>
-            <h1 className="text-[24px] font-Nunito text-white font-bold leading-8">
+            <h2 className="text-[24px] font-Nunito text-white font-bold leading-8">
               Who <span className="text-customGreen-para">We Are?</span>
-            </h1>
+            </h2>
 
             <p className="text-white font-Nunito text-[18px] font-light mt-1">
               At <span className="text-customGreen-para">A to Z Electric</span>, we provide a range of electrical services to
