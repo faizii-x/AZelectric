@@ -6,6 +6,7 @@ import Landing from './pages/landing'
 import About from './pages/about'
 import Service from './pages/service'
 import Contact from './pages/contact'
+import Footer from './components/footer'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           {/* <Route path="/*" element={<PageNotFound />} /> */}
 
         </Routes>
+        <Footer/>
       </BrowserRouter>
       
      

@@ -5,15 +5,14 @@ import MainService from "../components/mainService";
 import ThreeImg from "../components/threeImg";
 import Faq from "../components/faq";
 import ContactComp from "../components/contactComp";
-import Footer from "../components/footer";
 
 function Landing() {
-  // useEffect(() => {
-  //   window.scrollTo({
-  //     top: 0,
-  //     behavior: "smooth",
-  //   });
-  // }, []);
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
 
   return (
     <>
@@ -23,7 +22,7 @@ function Landing() {
       <ThreeImg/>
       <Faq/>
       <ContactComp/>
-      <Footer/>
+      
     </>
   );
 }

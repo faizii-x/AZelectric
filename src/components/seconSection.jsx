@@ -27,8 +27,8 @@ function SeconSection() {
               Who <span className="text-customGreen-para">We Are?</span>
             </h2>
 
-            <p className="text-white font-Nunito text-[18px] font-light mt-1">
-              At <span className="text-customGreen-para">A to Z Electric</span>, we provide a range of electrical services to
+            <p className="text-white font-Nunito text-[18px] font-light mt-2">
+              At <span className="text-customGreen-para font-medium">A to Z Electric</span>, we provide a range of electrical services to
               meet your needs. Our skilled team handles Electrical Work with
               care and precision. We ensure safety with our advanced Fire Safety
               solutions. Our Meter Installation services are accurate and

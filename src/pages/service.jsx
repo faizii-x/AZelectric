@@ -11,7 +11,7 @@ function Service() {
   return (
     <>
     
-    <h4 className="text-white text-2xl">Service</h4>
+    <h4 className="text-white text-2xl text-center pt-24 pb-8">Service Page</h4>
 
     </>
   )

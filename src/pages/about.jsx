@@ -13,7 +13,7 @@ function About() {
   return (
     <>
     
-    <h4 className="text-white text-2xl">About</h4>
+    <h4 className="text-white text-2xl text-center pt-24 pb-8">About</h4>
     
     </>
   )

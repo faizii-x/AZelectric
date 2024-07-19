@@ -6,8 +6,34 @@ import "aos/dist/aos.css";
 
 function Hero() {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    const initializeAos = () => {
+      if (window.innerWidth > 768) { // Adjust the breakpoint as needed
+        Aos.init({ duration: 2000, disable: false });
+      } else {
+        Aos.init({ disable: true });
+      }
+    };
+
+    initializeAos();
+
+    const handleResize = () => {
+      if (window.innerWidth > 768) {
+        Aos.refreshHard(); // Re-enable AOS on larger screens
+      } else {
+        Aos.init({ disable: true }); // Disable AOS on smaller screens
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
+
+  
+  
+
   return (
     <>
       <div className="pt-24">

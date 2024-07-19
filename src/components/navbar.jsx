@@ -60,6 +60,19 @@ function Navbar() {
                   </h2>
                 </Link>
 
+                <Link to="/service/">
+                  <div className="flex justify-start gap-1">
+                    <h2 className="font-semibold btn">
+                      {pathname === "/service/" ? (
+                        <div className="text-customGreen-light">Services</div>
+                      ) : (
+                        "Services"
+                      )}
+                    </h2>
+                  </div>
+                </Link>
+
+
                 <Link to="/about/">
                   <div className="flex justify-start gap-1">
                     <h2 className=" btn font-semibold">
@@ -72,17 +85,7 @@ function Navbar() {
                   </div>
                 </Link>
 
-                <Link to="/service/">
-                  <div className="flex justify-start gap-1">
-                    <h2 className="font-semibold btn">
-                      {pathname === "/service/" ? (
-                        <div className="text-customGreen-light">Services</div>
-                      ) : (
-                        "Services"
-                      )}
-                    </h2>
-                  </div>
-                </Link>
+               
 
                 <Link to="/contact/">
                   <h2 className="btn font-semibold ">

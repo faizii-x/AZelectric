@@ -11,7 +11,7 @@ function MainService() {
       </h3>
 
       <div className="grid lg:grid-cols-2 grid-cols-1 mt-8 gap-3 container mx-auto">
-        <div className="bg-white hover:bg-[#79d3a4] rounded-md p-3">
+        <div className="bg-white hover:bg-[#79d3a4] class-transition rounded-md p-3">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mx-auto divide-x-2">
             <div className="lg:col-span-1 md:col-span-2 col-span-1 mx-auto self-center">
               <img src={Four} alt="" className="mx-auto" />
@@ -25,14 +25,14 @@ function MainService() {
                 businesses. Trust our skilled team to handle all your electrical
                 needs with precision and reliability.
               </p>
-              <div className=" hover:bg-customGreen-para cursor-pointer text-black hover:text-white flex justify-center items-center border rounded-lg p-2 w-[120px] ml-2 mt-8">
+              <div className=" hover:bg-customGreen-para cursor-pointer text-black hover:text-white flex justify-center items-center border rounded-lg p-2 w-[120px] ml-2 mt-2">
                 <p>View More</p>
               </div>
             </div>
           </div>
         </div>
         {/* ............................................ */}
-        <div className="bg-white hover:bg-[#79d3a4] rounded-md p-3">
+        <div className="bg-white hover:bg-[#79d3a4] class-transition rounded-md p-3">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mx-auto divide-x-2">
             <div className="lg:col-span-1 md:col-span-2 col-span-1 mx-auto self-center">
               <img src={Three} alt="" className="mx-auto" />
@@ -53,7 +53,7 @@ function MainService() {
           </div>
         </div>
         {/* ................................. */}
-        <div className="bg-white hover:bg-[#79d3a4] rounded-md p-3">
+        <div className="bg-white hover:bg-[#79d3a4] class-transition rounded-md p-3">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mx-auto divide-x-2">
             <div className="lg:col-span-1 md:col-span-2 col-span-1 mx-auto self-center">
               <img src={Two} alt="" className="mx-auto" />
@@ -74,7 +74,7 @@ function MainService() {
           </div>
         </div>
         {/* .............................. */}
-        <div className="bg-white hover:bg-[#79d3a4] rounded-md p-3">
+        <div className="bg-white hover:bg-[#79d3a4] class-transition rounded-md p-3">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mx-auto divide-x-2">
             <div className="lg:col-span-1 md:col-span-2 col-span-1 mx-auto self-center">
               <img src={One} alt="" className="mx-auto" />

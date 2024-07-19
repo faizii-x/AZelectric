@@ -12,7 +12,7 @@ function Contact() {
   return (
     <>
     
-    <h5 className="text-white text-2xl">Contact</h5>
+    <h5 className="text-white text-2xl text-center pt-24 pb-8">Contact</h5>
     
     </>
   )

@@ -63,7 +63,7 @@ function Faq() {
               show={activeElement === "element1"}
               className="!mt-0 !rounded-b-none !shadow-none"
             >
-              <div className="p-8 py-4 text-black">
+              <div className="p-8 overflow-auto text-customGreen-light bg-white rounded-none">
               We handle all types of electrical work, from installations and repairs to maintenance and upgrades. Whether it's residential, commercial, or industrial, our skilled electricians are ready to assist.
               </div>
             </TECollapse>
@@ -112,7 +112,7 @@ function Faq() {
             show={activeElement === "element2"}
             className="!mt-0 !rounded-b-none !shadow-none"
           >
-            <div className="p-8 py-4 text-black">
+            <div className="p-8 bg-white rounded-none text-customGreen-light">
             Yes, all our electricians are fully certified and have extensive experience in the electrical industry. They are trained to handle a wide variety of electrical tasks safely and efficiently.
             </div>
           </TECollapse>
@@ -160,7 +160,7 @@ function Faq() {
             show={activeElement === "element3"}
             className="!mt-0 !shadow-none"
           >
-            <div className="p-8 py-4 text-black">
+            <div className="p-8 bg-white rounded-none text-customGreen-light">
             We strive to respond to all service requests as quickly as possible. Our team is committed to providing timely and efficient service to minimize any disruptions to your daily routine.
             </div>
           </TECollapse>
@@ -173,7 +173,7 @@ function Faq() {
                 activeElement === "element4"
                   ? `text-primary `
                   : `transition-none `
-              } group relative flex w-full items-center border-0 bg-[#064b3b]  px-5 py-4 text-left text-base text-white `}
+              } group relative flex w-full items-center bg-[#064b3b]  px-5 py-4 text-left text-base text-white `}
               type="button"
               onClick={() => handleClick("element4")}
               aria-expanded="true"
@@ -184,7 +184,7 @@ function Faq() {
                 className={`${
                   activeElement === "element4"
                     ? `rotate-[-180deg] -mr-1`
-                    : `rotate-0 fill-[#212529] dark:fill-white`
+                    : `rotate-0 fill-[#212529] `
                 } ml-auto h-5 w-5 shrink-0 fill-[#336dec] transition-transform duration-200 ease-in-out motion-reduce:transition-none dark:fill-blue-300`}
               >
                 <svg
@@ -208,7 +208,7 @@ function Faq() {
             show={activeElement === "element4"}
             className="!mt-0 !shadow-none"
           >
-            <div className="p-8 py-4 text-black">
+            <div className="p-8 bg-white rounded-none text-customGreen-light">
             We offer a wide range of electrical services, including Electrical Work, Control Systems, Fire Safety, and Meter Installation. Our team of experienced electricians is equipped to handle projects of all sizes.
             </div>
           </TECollapse>

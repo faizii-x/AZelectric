@@ -9,8 +9,18 @@ function ThreeImg() {
   }, []);
   return (
     <>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 container mx-auto mt-12">
-        <div className="col-span-2">
+      <div className="grid  grid-cols-1 container mx-auto mt-8">
+
+      <div className="lg:col-span-1 md:col-span-2 columns-1 mx-auto self-center">
+          {/* <img src={Teen} alt="" className="mx-auto" data-aos="zoom-in" /> */}
+          <div className="loader ">
+            <div className="dot"></div>
+            <div className="dot"></div>
+            <div className="dot"></div>
+          </div>
+        </div>
+
+        <div className="mt-8">
           <h4 className="text-white font-Nunito text-[22px] font-medium ">
             Why Choose{" "}
             <span className="text-customGreen-para">
@@ -50,9 +60,7 @@ function ThreeImg() {
             regulations to make sure every job is done safely and correctly.
           </p>
         </div>
-        <div className="col-span-1 self-center">
-          <img src={Teen} alt="" className="mx-auto" data-aos="zoom-in" />
-        </div>
+       
       </div>
     </>
   );
