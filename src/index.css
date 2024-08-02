@@ -1,3 +1,7 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -35,22 +39,17 @@ body {
 }
 
 .text-gradient {
-  background: linear-gradient(to bottom, #03bd5c 0%, #099f7a  100%);
+  background: linear-gradient(to bottom, #099f7a 30%, #03bd5c 100%);
   /* -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
 }
 
-/* .text-gradient {
-    position: absolute; 
-    top: 0; 
-    left: 0;
-    font-size: 40px; 
-    font-family: Arial, Helvetica, sans-serif; 
-    background: linear-gradient(to right,  
-            #ff6b08, #cf23cf, #eedd44); 
-    -webkit-text-fill-color: transparent; 
-    -webkit-background-clip: text; 
-  } */
+.textt-gradient {
+  background: linear-gradient(to bottom, #23c483 30%, #097a60 100%);
+  /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
 
 .class-hide-nav {
   display: block;
@@ -192,7 +191,7 @@ button:active {
 }
 
 .btn:hover {
-  color: #03bd5c;
+  color: white;
   transition-delay: 0.5s;
 }
 
@@ -207,7 +206,7 @@ button:active {
   bottom: 0;
   height: 0;
   width: 100%;
-  background-color: #064b3b;
+  background-color: #03bd5c;
   transition: 0.4s ease;
   z-index: -1;
 }
@@ -220,6 +219,25 @@ button:active {
 
 
 /* ...................................... */
+
+.class-short {
+  bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+  transition: 0.5s linear;
+  opacity: 0;
+}
+.class-styele:hover .class-short {
+  bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #03bd5d85;
+  transition: 0.5s linear;
+  opacity: 1;
+}
+
+/* ..................................... */
 
 /* The loader container */
 .loader {
@@ -331,6 +349,8 @@ button:active {
 
 /* .................................. */
 
+/* ....................................... */
+
 .navbarr {
   transition: background-color 0.8s ease;
 }
@@ -338,6 +358,25 @@ button:active {
 .navbarr.scrolled {
   background-color: #064b3b;
 }
+/* .........................map-...................... */
+
+.responsive-map{
+  position: relative;
+  overflow: hidden;
+  height: 0;
+  padding-bottom: 50%;
+}
+
+.iframe-classes {
+  border: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+
 /* .......................................... */
 .textarea {
   color: #a5a3a3; /* Sets text color to dark gray */

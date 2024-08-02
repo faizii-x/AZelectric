@@ -22,13 +22,13 @@ function Footer() {
             <a href="/" onClick={handleScrollToTop}>
               <img src={FootLogo} alt="" className="w-[40%]" />
             </a>
-            <p className="text-white text-[16px] w-[80%]">
+            <p className="text-white text-[16px] w-[80%] font-Nunito">
               Trust our skilled professionals to deliver top-quality results,
               whether for large commercial projects or smaller residential ones.
             </p>
             <div className="flex justify-start gap-4 mt-3">
               <div>
-                <p className="text-white text-[18px] font-medium">Follow Us</p>
+                <p className="text-white text-[18px] font-medium font-Nunito">Follow Us</p>
               </div>
               <div className="flex justify-start gap-2">
                 <img src={Facebook} alt="" className="cursor-pointer" />
@@ -38,49 +38,49 @@ function Footer() {
             </div>
           </div>
           <div className="col-span-1 mt-6">
-            <p className="text-white text-[20px] font-bold">Quick Links</p>
+            <p className="text-white text-[20px] font-bold font-Nunito">Quick Links</p>
             <ul className="text-white mt-4">
-              <li className="hover:underline font-medium">
+              <li className="hover:underline font-medium font-Nunito">
                 <a href="/">Home</a>
               </li>
-              <li className="mt-1 hover:underline font-medium">
+              <li className="mt-1 hover:underline font-medium font-Nunito">
                 <a href="/about">About Us</a>
               </li>
-              <li className="mt-1 hover:underline font-medium">
+              <li className="mt-1 hover:underline font-medium font-Nunito">
                 <a href="/contact">Contact Us</a>
               </li>
             </ul>
           </div>
           <div className="col-span-1 mt-6">
-            <p className="text-white text-[20px] font-bold">Our Services</p>
+            <p className="text-white text-[20px] font-bold font-Nunito">Our Services</p>
             <ul className="text-white mt-4">
-              <li className="hover:underline font-medium">
+              <li className="hover:underline font-medium font-Nunito">
                 <a href="/">Electrical Work</a>
               </li>
-              <li className="mt-1 hover:underline font-medium">
+              <li className="mt-1 hover:underline font-medium font-Nunito">
                 <a href="/">Control System</a>
               </li>
-              <li className="mt-1 hover:underline font-medium">
+              <li className="mt-1 hover:underline font-medium font-Nunito">
                 <a href="/">Fire Safety</a>
               </li>
-              <li className="mt-1 hover:underline font-medium">
+              <li className="mt-1 hover:underline font-medium font-Nunito ">
                 <a href="/">Meter Installation</a>
               </li>
             </ul>
           </div>
           <div className="col-span-1 mt-6">
-            <p className="text-white text-[20px] font-bold">Contact Us</p>
+            <p className="text-white text-[20px] font-bold font-Nunito">Contact Us</p>
             <div className="flex justify-start gap-2 mt-4">
               <img src={Locate} alt="" className="w-[20px] h-[26px]" />
-              <p className="text-white">LocationUSA</p>
+              <p className="text-white font-Nunito">LocationUSA</p>
             </div>
             <div className="flex justify-start gap-2 mt-2">
               <img src={Call} alt="" className="w-[20px] h-[20px]" />
-              <p className="text-white">+1 646-552-4444</p>
+              <p className="text-white font-Nunito">+1 646-552-4444</p>
             </div>
             <div className="flex justify-start gap-2 mt-2">
               <img src={Message} alt="" className="w-[24px] h-[19px]" />
-              <p className="text-white">atozelectric@gmail.com</p>
+              <p className="text-white font-Nunito">atozelectric@gmail.com</p>
             </div>
           </div>
         </div>

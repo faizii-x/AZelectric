@@ -22,6 +22,7 @@ export default {
           para: "#0EA37F",
         },
       },
+     
     },
   },
   plugins: [],

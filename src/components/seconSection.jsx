@@ -12,12 +12,12 @@ function SeconSection() {
   return (
     <>
       <div
-        className=" max-w-full h-auto bg-cover bg-center mt-8 p-3"
+        className=" w-full h-auto bg-cover bg-center mt-8 p-3"
         style={{ backgroundImage: `url(${"/png/bgOne.png"})` }}
       >
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-16 container mx-auto">
           <div className="lg:col-span-1 md:col-span-2 col-span-1 mx-auto" data-aos="fade-right">
-            <img src={Man} alt="" />
+            <img src={Man} alt="" className=""/>
           </div>
           <div className="col-span-2 self-center lg:mt-8 mt-0" data-aos="fade-left">
             <p className="text-customGreen-para font-Nunito text-[16px] font-bold">

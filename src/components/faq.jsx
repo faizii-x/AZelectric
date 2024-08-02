@@ -63,7 +63,7 @@ function Faq() {
               show={activeElement === "element1"}
               className="!mt-0 !rounded-b-none !shadow-none"
             >
-              <div className="p-8 overflow-auto text-customGreen-light bg-white rounded-none">
+              <div className="p-8 overflow-auto text-customGreen-para bg-white rounded-none">
               We handle all types of electrical work, from installations and repairs to maintenance and upgrades. Whether it's residential, commercial, or industrial, our skilled electricians are ready to assist.
               </div>
             </TECollapse>
@@ -112,7 +112,7 @@ function Faq() {
             show={activeElement === "element2"}
             className="!mt-0 !rounded-b-none !shadow-none"
           >
-            <div className="p-8 bg-white rounded-none text-customGreen-light">
+            <div className="p-8 bg-white rounded-none text-customGreen-para">
             Yes, all our electricians are fully certified and have extensive experience in the electrical industry. They are trained to handle a wide variety of electrical tasks safely and efficiently.
             </div>
           </TECollapse>
@@ -160,7 +160,7 @@ function Faq() {
             show={activeElement === "element3"}
             className="!mt-0 !shadow-none"
           >
-            <div className="p-8 bg-white rounded-none text-customGreen-light">
+            <div className="p-8 bg-white rounded-none text-customGreen-para">
             We strive to respond to all service requests as quickly as possible. Our team is committed to providing timely and efficient service to minimize any disruptions to your daily routine.
             </div>
           </TECollapse>
@@ -208,7 +208,7 @@ function Faq() {
             show={activeElement === "element4"}
             className="!mt-0 !shadow-none"
           >
-            <div className="p-8 bg-white rounded-none text-customGreen-light">
+            <div className="p-8 bg-white rounded-none text-customGreen-para">
             We offer a wide range of electrical services, including Electrical Work, Control Systems, Fire Safety, and Meter Installation. Our team of experienced electricians is equipped to handle projects of all sizes.
             </div>
           </TECollapse>

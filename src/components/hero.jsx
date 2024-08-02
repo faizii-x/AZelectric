@@ -37,14 +37,14 @@ function Hero() {
   return (
     <>
       <div className="pt-24">
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-3 max-w-full container mx-auto">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-3 w-full container mx-auto">
           <div className="lg:col-span-1 md:col-span-2 col-span-1 mx-auto self-center">
-            <p className="text-customGreen-para font-Nunito text-[16px] font-bold">
+            <p className="text-customGreen-para font-Nunito text-[16px] font-bold ">
               Welcome to A to Z Electric
             </p>
             <h1 className="text-[24px] font-Nunito text-white font-bold leading-8">
               Powering Your World with{" "}
-              <span className="text-customGreen-para">
+              <span className="font-extrabold bg-gradient-to-l from-customGreen-para to-customGreen-light text-transparent bg-clip-text">
                 Reliable Electricity Solution
               </span>
             </h1>

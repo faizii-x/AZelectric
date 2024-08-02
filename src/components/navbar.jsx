@@ -49,11 +49,11 @@ function Navbar() {
             </Link>
 
             <div className="class-hide-nav">
-              <div className="flex justify-center gap-6 mt-3 ">
+              <div className="flex justify-center gap-6 mt-[8px] ">
                 <Link to="/">
                   <h2 className="btn font-semibold">
                     {pathname === "/" ? (
-                      <div className=" text-customGreen-light">Home</div>
+                      <div className="border-b-2 border-customGreen-light">Home</div>
                     ) : (
                       "Home"
                     )}
@@ -64,7 +64,7 @@ function Navbar() {
                   <div className="flex justify-start gap-1">
                     <h2 className="font-semibold btn">
                       {pathname === "/service/" ? (
-                        <div className="text-customGreen-light">Services</div>
+                        <div className="border-b-2 border-customGreen-light">Services</div>
                       ) : (
                         "Services"
                       )}
@@ -77,7 +77,7 @@ function Navbar() {
                   <div className="flex justify-start gap-1">
                     <h2 className=" btn font-semibold">
                       {pathname === "/about/" ? (
-                        <div className="text-customGreen-light">About Us</div>
+                        <div className="border-b-2 border-customGreen-light">About Us</div>
                       ) : (
                         "About Us"
                       )}
@@ -90,7 +90,7 @@ function Navbar() {
                 <Link to="/contact/">
                   <h2 className="btn font-semibold ">
                     {pathname === "/contact/" ? (
-                      <div className="text-customGreen-light"> Contact Us</div>
+                      <div className="border-b-2 border-customGreen-light"> Contact Us</div>
                     ) : (
                       " Contact Us"
                     )}
@@ -127,6 +127,7 @@ function Navbar() {
           <Example open={open} setOpen={handleOnClose} />
         </div>
       </div>
+    
       
     </>
   );

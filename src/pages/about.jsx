@@ -1,4 +1,11 @@
 import { useEffect } from "react";
+import AboutSecond from "../components/aboutSecond";
+import ContactComp from "../components/contactComp";
+import Meet from "../components/meet";
+import Specialties from "../components/specialties";
+import AboutBg from "../components/aboutBg";
+import NewAbout from "../components/newAbout";
+import Banner from "../components/banner";
 
 
 function About() {
@@ -12,8 +19,14 @@ function About() {
 
   return (
     <>
-    
-    <h4 className="text-white text-2xl text-center pt-24 pb-8">About</h4>
+    <AboutBg/>
+   <AboutSecond/>
+   <NewAbout/>
+   <Meet/>
+   {/* <Banner/> */}
+   <Specialties/>
+   <ContactComp/>
+
     
     </>
   )

@@ -1,4 +1,10 @@
 import { useEffect } from "react";
+import ServiceBg from "../components/serviceBg";
+import ServComp from "../components/servComp";
+import Banner from "../components/banner";
+import Sliderr from "../components/sliderr";
+import ContactComp from "../components/contactComp";
+import CardStyle from "../components/cardStyle";
 
 function Service() {
   useEffect(() => {
@@ -11,7 +17,12 @@ function Service() {
   return (
     <>
     
-    <h4 className="text-white text-2xl text-center pt-24 pb-8">Service Page</h4>
+   <ServiceBg/>
+   <ServComp/>
+   {/* <Banner/> */}
+   <CardStyle/>
+   <Sliderr/>
+   <ContactComp/>
 
     </>
   )

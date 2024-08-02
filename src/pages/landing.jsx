@@ -5,6 +5,7 @@ import MainService from "../components/mainService";
 import ThreeImg from "../components/threeImg";
 import Faq from "../components/faq";
 import ContactComp from "../components/contactComp";
+import Banner from "../components/banner";
 
 function Landing() {
   useEffect(() => {
@@ -16,9 +17,10 @@ function Landing() {
 
   return (
     <>
-      <Hero />
+      <Hero />   
       <SeconSection/>
       <MainService/>
+      {/* <Banner/> */}
       <ThreeImg/>
       <Faq/>
       <ContactComp/>
