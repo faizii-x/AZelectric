@@ -80,15 +80,19 @@ function Footer() {
             </p>
             <div className="flex justify-start gap-2 mt-4">
               <img src={Locate} alt="" className="w-[20px] h-[26px]" />
-              <p className="text-white font-Nunito">LocationUSA</p>
+              <p className="text-white font-Nunito">45-Las Angelas,New York</p>
             </div>
             <div className="flex justify-start gap-2 mt-2">
               <img src={Call} alt="" className="w-[20px] h-[20px]" />
-              <p className="text-white font-Nunito">+1 646-552-4444</p>
+              <a href="tel:+718 717 8306">
+              <p className="text-white font-Nunito">+718 717 8306</p>
+              </a>
             </div>
             <div className="flex justify-start gap-2 mt-2">
               <img src={Message} alt="" className="w-[24px] h-[19px]" />
-              <p className="text-white font-Nunito">atozelectric@gmail.com</p>
+              <a href="mailto:muhammad@mfbzone.com">
+              <p className="text-white font-Nunito">muhammad@mfbzone.com</p>
+              </a>
             </div>
           </div>
         </div>
