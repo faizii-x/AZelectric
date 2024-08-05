@@ -28,7 +28,9 @@ function Footer() {
             </p>
             <div className="flex justify-start gap-4 mt-3">
               <div>
-                <p className="text-white text-[18px] font-medium font-Nunito">Follow Us</p>
+                <p className="text-white text-[18px] font-medium font-Nunito">
+                  Follow Us
+                </p>
               </div>
               <div className="flex justify-start gap-2">
                 <img src={Facebook} alt="" className="cursor-pointer" />
@@ -38,7 +40,9 @@ function Footer() {
             </div>
           </div>
           <div className="col-span-1 mt-6">
-            <p className="text-white text-[20px] font-bold font-Nunito">Quick Links</p>
+            <p className="text-white text-[20px] font-bold font-Nunito">
+              Quick Links
+            </p>
             <ul className="text-white mt-4">
               <li className="hover:underline font-medium font-Nunito">
                 <a href="/">Home</a>
@@ -52,10 +56,12 @@ function Footer() {
             </ul>
           </div>
           <div className="col-span-1 mt-6">
-            <p className="text-white text-[20px] font-bold font-Nunito">Our Services</p>
+            <p className="text-white text-[20px] font-bold font-Nunito">
+              Our Services
+            </p>
             <ul className="text-white mt-4">
               <li className="hover:underline font-medium font-Nunito">
-                <a href="/">Electrical Work</a>
+                <a href="/service">Electrical Work</a>
               </li>
               <li className="mt-1 hover:underline font-medium font-Nunito">
                 <a href="/">Control System</a>
@@ -69,7 +75,9 @@ function Footer() {
             </ul>
           </div>
           <div className="col-span-1 mt-6">
-            <p className="text-white text-[20px] font-bold font-Nunito">Contact Us</p>
+            <p className="text-white text-[20px] font-bold font-Nunito">
+              Contact Us
+            </p>
             <div className="flex justify-start gap-2 mt-4">
               <img src={Locate} alt="" className="w-[20px] h-[26px]" />
               <p className="text-white font-Nunito">LocationUSA</p>
